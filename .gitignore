@@ -1,0 +1,9 @@
+# Ignorar el entorno virtual
+venv/
+*.pyc
+__pycache__/
+
+# Ignorar todos los demás archivos y carpetas, excepto app.py
+*
+!app.py
+!.gitignore
